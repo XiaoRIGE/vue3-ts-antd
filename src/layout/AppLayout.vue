@@ -10,6 +10,7 @@
           <a-layout-content class="main-content">
             <router-link to="/">Home</router-link> | <router-link to="/tsxtest">tsx页面</router-link> | <router-link to="/about">About</router-link> | <router-link to="/contact">Contact</router-link> |
             <router-link to="/tests">组件测试</router-link>
+            <router-link to="/testHome">test列表</router-link>
             <router-view></router-view>
           </a-layout-content>
           <a-layout-footer>

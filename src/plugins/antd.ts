@@ -1,5 +1,5 @@
-import { Button, Card, Row, Col, Tag, Form, Input, ConfigProvider, Select, DatePicker, Dropdown, Menu, Divider, Badge, BackTop, Carousel, Breadcrumb, Layout, Avatar } from 'ant-design-vue'
-
+import { Button, Card, Row, Col, Tag, Form, Input, ConfigProvider, Select, DatePicker, Dropdown, Menu, Divider, Badge, BackTop, Carousel, Breadcrumb, Layout, Avatar, PageHeader, Pagination, TimePicker, Cascader } from 'ant-design-vue'
+import FormModel from 'ant-design-vue'
 /**
  * @description 手动注册 antd-vue 组件,达到按需加载目的
  * @description Automatically register components under Button, such as Button.Group
@@ -26,4 +26,9 @@ export default function loadComponent(app: any) {
   app.use(Breadcrumb)
   app.use(Layout)
   app.use(Avatar)
+  app.use(PageHeader)
+  app.use(Pagination)
+  app.use(TimePicker)
+  app.use(Cascader)
+  app.use(FormModel)
 }
